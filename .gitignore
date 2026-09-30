@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+logs/
+checkpoints/
+objects/
+recordings/
+screenshots/
+datasets/*.jpg
+datasets/*.png
+datasets/*.avi
+models/

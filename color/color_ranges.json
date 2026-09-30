@@ -1,0 +1,42 @@
+{
+  "neutral": {
+    "max_saturation": 32,
+    "white_min_value": 185,
+    "black_max_value": 45
+  },
+  "dark_value": 100,
+  "beige": {
+    "h_min": 8,
+    "h_max": 40,
+    "s_min": 15,
+    "s_max": 95,
+    "v_min": 150
+  },
+  "pink": {
+    "s_min": 25,
+    "s_max": 170,
+    "v_min": 170,
+    "ranges": [
+      {"h_min": 0, "h_max": 12},
+      {"h_min": 150, "h_max": 179}
+    ]
+  },
+  "brown": {
+    "h_min": 6,
+    "h_max": 28,
+    "s_min": 45,
+    "s_max": 220,
+    "v_min": 25,
+    "v_max": 165,
+    "b_min": 135
+  },
+  "hues": [
+    {"name": "RED", "ranges": [{"h_min": 0, "h_max": 8}, {"h_min": 170, "h_max": 180}]},
+    {"name": "ORANGE", "ranges": [{"h_min": 8, "h_max": 20}]},
+    {"name": "YELLOW", "ranges": [{"h_min": 20, "h_max": 38}]},
+    {"name": "GREEN", "ranges": [{"h_min": 38, "h_max": 85}]},
+    {"name": "CYAN", "ranges": [{"h_min": 85, "h_max": 98}]},
+    {"name": "BLUE", "ranges": [{"h_min": 98, "h_max": 130}]},
+    {"name": "PURPLE", "ranges": [{"h_min": 130, "h_max": 170}]}
+  ]
+}

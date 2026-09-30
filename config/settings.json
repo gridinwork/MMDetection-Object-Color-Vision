@@ -1,0 +1,36 @@
+{
+  "source": "webcam",
+  "camera_index": 0,
+  "resolution": "1280x720",
+  "device": "auto",
+  "profile": "fast",
+  "explicit_model_id": "",
+  "optimization": "balanced",
+  "confidence": 0.4,
+  "processing_scale": 0.75,
+  "last_video": "F:\\!GEC\\AI DETECT V2\\datasets\\smoke_motion.avi",
+  "last_image": "F:\\!GEC\\AI DETECT V2\\datasets\\demo.jpg",
+  "modes": {
+    "detection": true,
+    "segmentation": false,
+    "tracking": true,
+    "color": true,
+    "trails": false,
+    "labels": true,
+    "confidence": true,
+    "object_id": true,
+    "detailed_color": false,
+    "palette": false,
+    "debug": false
+  },
+  "disabled_classes": [],
+  "lost_frames_timeout": 20,
+  "color_interval": 5,
+  "trail_length": 30,
+  "geometry": [
+    0,
+    23,
+    1920,
+    1017
+  ]
+}
